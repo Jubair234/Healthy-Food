@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* All Fonts */
+
+h1,h2,h3,h4{
+    font-family: "verdana",sans-serif;
+}
+p,a{
+    font-family: "Noto sans",sans-serif;
+
+}
+
+/* Hero Starts Here */
+
+.hero{
+    height: 100vh;
+    margin-left:60px;
+    
+}
+.flex-hero{
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex-basis: 50%;
+
+}
+.text h2{
+    font-size: 50px;
+    word-spacing: 5px;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.76);
+}
+.text h2 span{
+    color: #e67e22;
+}
+.text p{
+    margin-top: 20px;
+    width: 380px;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: rgba(12, 2, 2, 0.739);
+
+
+}
+
+
+.text button{
+    padding: 16px 32px;
+    border-radius: 28px;
+    border: none;
+    background: linear-gradient(to right,#e67e22,#e2470a);
+    color: #fff;
+    font-size: 16px;
+    margin-top:30px ;
+    cursor: pointer;
+}
+
+.flex-image{
+    flex-basis: 45%;
+
+   
+   
+}
+
+
+.flex-image img{
+    width: 100%;
+}
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background: url('Assets/7.png') no-repeat content-box;
+    background-size: contain;
+    
+}
+.about .flex-about{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.about .flex-about .image{
+    flex-basis: 50%;
+    margin-top: 90px;
+}
+.image .person{
+    width: 250px;
+    margin-left: 0;
+    margin-right:0;
+    margin: auto;
+    
+}
+.about .flex-about .image .person img{
+    width: 100%;
+}
+
+.about .text-about{
+    flex-basis: 50%;
+    
+}
+.text-about h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.text-about p{
+    width: 350px;
+    text-align: justify;
+}
+.text-about button{
+    padding: 16px 32px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right,#e67e22,#e2470a);
+    color: #fff;
+    font-size: 16px;
+    margin-top:30px ;
+
+}
+ button:hover{
+    background: linear-gradient(to right,#e2470a,#e67e22);
+    transition: .5s;
+}
+
+.mycooking{
+    width: 100%;
+    height: 100vh;
+}
+.mycooking h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px 0;
+
+}
+.mycooking p.para{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.mycooking .food{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+
+}
+.food .food_box{
+    flex-basis: 25%;
+    box-shadow: 7px 7px 7px 7px #aaaaaa;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.food_box:hover{
+    transform: translateY(-5px);
+    transition: .3s;
+}
+.food_box h3,p{
+    width:90%;
+    text-align:left;
+    margin: 10px 0;
+}
+
+.food_box .food_img{
+    width: 100%;
+   
+}
+.food_img img{
+    width: 100%;
+}
+
+
+/* Followers*/
+
+.followers{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    box-shadow:8px 8px 10px 10px #aaaaaa;
+    padding: 10px;
+    justify-content: flex-end;
+    
+}
+
+.fllower{
+    flex-basis: 30%;
+    
+    
+
+}
+.fllower h2{
+    font-family:"Oswald",sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(5, 0, 0, 0.849);
+
+}
+.fllower p{
+    font-family: 'noto sans',sans-serif;
+    color: rgba(7, 6, 6, 0.972);
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background: rgba(3, 0, 0, 0.877);
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+footer span{
+    color: #e67e22;
+
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
+
